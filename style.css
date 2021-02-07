@@ -1,0 +1,49 @@
+body{
+    background: rgba(230, 126, 34,0.95);
+}
+#search-item{
+    margin: 0px auto;
+}
+
+#div-container{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    margin: 40px auto;
+    gap: 20px;
+    text-align: center;
+}
+
+#div-container h4{
+    text-align: center;
+}
+.food-img{
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+}
+#single-div-details{
+    border: 1px solid gray;
+    border-radius: 10px;
+    background: rgba(207, 206, 206, 0.541);
+}
+.ingredients-items{
+    font-size: 18px;
+    font-weight: bold;
+}
+#meals-details{
+    border: 1px solid rgb(161, 150, 150);
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 550px;
+    margin-top: 20px;
+    background-color: rgb(243, 239, 239);
+}
+.list-header{
+    text-align: center;
+}
+#submit-btn{
+    border: none;
+    border-radius: 5px;
+    background: rgba(121, 119, 119, 0.541);
+    outline-style: none;
+}
